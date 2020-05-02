@@ -1,0 +1,27 @@
+<mat-nav-list>
+        <div class="profile-card">
+            <div class="header">
+                <h1 style="font-weight: bolder;">Ravi Kumar</h1>  <!-- We have to fetch the name of the logged user from the server  -->
+                <h4 style="font-weight: bold;">rvkmr6466</h4> <!-- We have to fetch the logged username from the server  -->
+            </div>    
+                <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Ravi kumar"> <!-- We have to fetch the logged username from the server  -->
+        </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Menu</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Dashboard</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/posts">Post</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/articles">Articles</a>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Tools</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/articles">
+       <mat-icon>contact_phone</mat-icon> 
+       Phone
+    </a>
+</mat-nav-list>
