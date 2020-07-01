@@ -12,12 +12,14 @@ import { MatCardModule } from "@angular/material/card";
 import { DashboardService } from 'src/app/module/dashboard.service';
 import { MatPaginatorModule } from "@angular/material/paginator";
 import { MatTableModule } from "@angular/material/table";
+import { ArticlesComponent } from 'src/app/module/articles/articles.component';
 
 @NgModule({
 	declarations: [
 		DefaultComponent,
 		DashboardComponent,
-		PostsComponent
+		PostsComponent,
+		ArticlesComponent
 	],
 	imports: [
 		CommonModule,
